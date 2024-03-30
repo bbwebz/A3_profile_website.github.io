@@ -1,8 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
 .card {
     background-color: #7B8DA6;
     width: 600px;
     height: 480px;
-    margin-left: 460px;
     margin-top: 70px;
     color: #F2F2F2;
     display: grid;
@@ -33,4 +38,24 @@ ul {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+}
+
+
+@media screen and (max-width: 1400px) {
+
+    .container {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 100vw;
+    }  
 }
